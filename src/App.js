@@ -31,11 +31,7 @@ function App() {
       <div>
         <h1>Calculating alcohol blood level</h1>
         <label>Weight</label>
-        <input
-          type="number"
-          value={weight}
-          onChange={(e) => setWeight(e.target.value)}
-        />
+        <input type="number" value={weight} onChange={(e) => setWeight(e.target.value)}/>
       </div>
 
       <div>
